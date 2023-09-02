@@ -1,4 +1,5 @@
-//                             Conversion of data types 
+//                            Conversion of data types 
+console.log("welcome user");
 
 let score = 19                                                      //number
 const name = "Ramesh"                                               //string
@@ -25,3 +26,5 @@ console.log(typeof bool)
 console.log(bool)
 console.log(typeof bat);
 console.log(bat);
+
+console.log(+true);
