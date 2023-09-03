@@ -52,4 +52,6 @@ Return type of variables in JavaScript
 
 */
 
+// stack memory(primitive) copy militi hai isme
 
+//heap(non primitive)      original changes har jagah honge
