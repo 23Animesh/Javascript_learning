@@ -1,0 +1,15 @@
+#primitive data types             (call by value)
+ 
+ 7 primitive data types are :-
+ string
+ Number
+ Boolean
+ null
+ undefined
+ Symbol
+ BigInt
+
+
+#Reference (Non primitve)
+
+Array,Objects,Functions

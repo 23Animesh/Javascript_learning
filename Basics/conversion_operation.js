@@ -15,6 +15,6 @@ console.log(2%1);
 let message = "hello";
 let title = " Animesh";
 
-console.log(message+title);    //conactenation
+console.log(message+title);    //concatentaion
 console.log("1"+2+3);
 console.log(1+2+"3");
