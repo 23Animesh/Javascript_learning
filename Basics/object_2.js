@@ -24,3 +24,22 @@ console.log(Object.entries(players));                       // shows in arrays
  
 updated = {...ob,...nb}                                       // creation of object from two object
 console.log(updated);
+
+const course = {
+    coursename : "newLearning",
+    price : 100,
+    courseSub : "javascript"
+}
+ 
+// destructure in object
+const {courseSub} = course
+const {course : coursesub} = course 
+console.log(courseSub);
+
+//-------------------------API------------------
+/*{
+    "name" : "Animesh",
+    "coursename" : "programming",
+    "price" : true
+} 
+*/
