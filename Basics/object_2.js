@@ -2,6 +2,16 @@
 
 players  = new Object;
 //players = { }
+ const ola = {
+    driver : "ravi",
+    id : 198,
+    Reg : "DL5SAT6484"
+}
+
+console.log(ola.driver);
+/*details = function(ola){
+    console.log(ola.driver);
+}*/
 players.id = "12";                                   //assignment of values in object
 players.name = "virat kohli";
 players.type = "batsman";
@@ -43,3 +53,4 @@ console.log(courseSub);
     "price" : true
 } 
 */
+//details();
