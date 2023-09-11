@@ -1,4 +1,4 @@
-arr = [5,10,15,20,25,30,35];
+arr = [5,10,15,20,25,30,35,54];
 //console.log(typeof arr);
 //console.log(arr);
 
