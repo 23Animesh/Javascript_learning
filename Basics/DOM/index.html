@@ -2,25 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-   <title>DOM  learning</title>
-   <style>
-    .bg-black{
-        background-color: black;
-        color: white;
-    }
-   </style>
-</head> 
-<body class="bg-black">
-    <div class="bg-black">
-        <h1 id = "title" class = "heading"> DOM learning on youtube
-            <span style="display: none;"> test text</span>
-        </h1>
-        <h2>Lorem ipsum, dolor sit amet consectetur adipisicing.</h2>
-        <p>Lorems ipsum dolor sit amet consectetur adipisicing elit. Odit dolorum excepturi ad, impedit necessitatibus soluta.</p>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body style = "background-color: black; color: white;">
+    <div class="parent">
+        <!-- This is a comment -->
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+        <div class="day">Friday</div> 
     </div>
-    <ul>
-        <li>one</li>
-        <li>two</li>
-        <li>three</li>
-    </ul>
+</body>
+<script>
+    const parent = document.querySelector('.parent')
+    // console.log(parent);
+    // console.log(parent.children);
+    // console.log(parent.children[1].innerHTML);
+
+    // for (let i = 0; i < parent.children.length; i++) {
+    //     console.log(parent.children[i].innerHTML);
+        
+    // }
+    //parent.children[1].style.color = "orange"
+    //console.log(parent.lastElementChild);
+
+    const dayone = document.querySelector('.day')
+    // console.log(dayone);
+    // console.log(dayone.parentElement);
+    // console.log(dayone.nextElementSibling);
+
+
+    console.log("NODES :",parent.childNodes);
+</script> 
 </html>
