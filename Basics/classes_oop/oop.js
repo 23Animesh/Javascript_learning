@@ -11,7 +11,7 @@ const user = {
 }
 
 // console.log(user);
-//console.log(user.getUserDetails( ));
+//console.log(user.g etUserDetails( ));
 //console.log(this);
 
 // const promiseOne = new Promise()
